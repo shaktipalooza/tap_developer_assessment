@@ -1,0 +1,30 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+mars:
+  name: Mars Escape Rocket
+  tags: {'seating': 100, engines: 31, beverages: 'vodka'}
+  type: 2
+
+underground:
+  name: Underground Bunker
+  tags: {'beds': 50, capacity: 500, beverages: 'IPA'}
+  type: 2
+
+hopper:
+  name: Zombie Hopper
+  tags: {'blades': 50_000, hourly_grind: 500, beverages: 'Colt 45'}
+  type: 2
+  
+zombie:
+  name: Zombie Eradication
+  tags: {'weapon': 'shotgun', 'weapon': 'crowbow', beverages: 'schlitz malt liquor'}
+  type: 1
+
+jail:
+  name: Zombie Penitentiary
+  tags: {'capacity': 5_000, guards: 50, beverages: 'Paul Masson'}
+  type: 2
+
+disney:
+  name: Disneyland Reopening
+  tags: {'capacity': 5_000, guards: 50, beverages: 'Paul Masson'}
+  type: 0

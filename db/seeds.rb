@@ -1,0 +1,8 @@
+ActiveRecord::Base.connection.execute("DELETE FROM projects")
+ActiveRecord::Base.connection.execute("DELETE FROM SQLITE_SEQUENCE WHERE name='projects'")
+Project.create(name: 'Mars Escape Rocket', type: 'A', tags: {seating: 100, engines: 31})
+Project.create(name: 'Underground Doomsday Bunker', type: 'A', tags: {beds: 100, generators: 5, booze: '5,000 gallons'})
+Project.create(name: 'Zombie Eradication', type: 'B', tags: {team: 100, shotguns: 100})
+Project.create(name: 'Global Reconstruction', type: 'C', tags: {team: 100_000, dumptrucks: 1_000})
+Project.create(name: 'Disneyland Reopening', type: 'C', tags: {mice: 100, princesses: 100})
+Project.create(name: 'Personal Pet Project', type: nil, tags: {years: 100, months: 1})
